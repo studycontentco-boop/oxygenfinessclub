@@ -2,7 +2,6 @@
 .assetsignore
 supabase
 serve.js
-content.json
 messages.json
 .backup
 .admin-tmp

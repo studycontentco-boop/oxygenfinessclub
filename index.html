@@ -504,10 +504,29 @@ body::after{content:"";position:fixed;inset:0;z-index:9999;pointer-events:none;o
     if (window.__oc && !injectedOK() && document.getElementById('facilities')) inject(window.__oc);
   }
 
+  function fetchContentJson() {
+    return fetch('content.json').then(function (r) { return r.json(); });
+  }
+
+  function loadContent() {
+    return supReady().then(function (on) {
+      if (!on || !window.__ocSup) return fetchContentJson();
+      var sup = window.__ocSup;
+      return fetch(sup.url + '/rest/v1/content?select=payload&limit=1', {
+        headers: { apikey: sup.anonKey, Authorization: 'Bearer ' + sup.anonKey },
+      }).then(function (r) {
+        if (!r.ok) throw new Error('content fetch failed');
+        return r.json();
+      }).then(function (rows) {
+        var c = Array.isArray(rows) && rows[0] ? rows[0].payload : null;
+        if (c) return c;
+        throw new Error('no content row');
+      }).catch(function () { return fetchContentJson(); });
+    });
+  }
+
   function boot() {
-    fetch('content.json').then(function (r) { return r.json(); })
-      .then(function (c) { inject(c); })
-      .catch(function () { inject({}); });
+    loadContent().then(function (c) { inject(c || {}); }).catch(function () { inject({}); });
   }
   if (document.readyState === 'complete') setTimeout(boot, 300);
   else window.addEventListener('load', function () { setTimeout(boot, 300); });

@@ -27,6 +27,18 @@ alter table public.content enable row level security;
 alter table public.messages enable row level security;
 alter table public.facilities enable row level security;
 
+-- one-time compat: drop any earlier policy so this file is safe to re-run
+drop policy if exists content_select_anon on public.content;
+drop policy if exists content_all_authenticated on public.content;
+drop policy if exists messages_insert_anon on public.messages;
+drop policy if exists messages_select_authenticated on public.messages;
+drop policy if exists messages_update_authenticated on public.messages;
+drop policy if exists facilities_select_anon on public.facilities;
+drop policy if exists facilities_all_authenticated on public.facilities;
+
+create policy content_select_anon on public.content
+  for select to anon using (true);
+
 create policy content_all_authenticated on public.content
   for all to authenticated using (true) with check (true);
 
