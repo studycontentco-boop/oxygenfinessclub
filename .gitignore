@@ -1,0 +1,13 @@
+node_modules/
+.backup/
+.admin-tmp/
+messages.json
+*.env
+gym-photo.jpg
+gym-sequence/ezgif-frame-*.jpg
+!gym-sequence/ezgif-frame-001.jpg
+!gym-sequence/ezgif-frame-031.jpg
+!gym-sequence/ezgif-frame-062.jpg
+!gym-sequence/ezgif-frame-091.jpg
+!gym-sequence/ezgif-frame-181.jpg
+!gym-sequence/ezgif-frame-211.jpg

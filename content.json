@@ -1,0 +1,170 @@
+{
+  "phone": "+919031810001",
+  "phoneDisplay": "090318 10001",
+  "whatsapp": "919031810001",
+  "whatsappText": "Hi Oxygen Fitness Club! I want to know more about membership.",
+  "instagram": "https://www.instagram.com/oxygen_fitness_club01",
+  "hours": "5:00 AM – 11:30 AM & 3:00 PM – 10:00 PM",
+  "announcement": "",
+  "stats": {
+    "members": "500+",
+    "trainers": "10+",
+    "programs": "20+",
+    "rating": "5★"
+  },
+  "about": {
+    "title": "BARAMATI'S PREMIER FITNESS CLUB",
+    "subtitle": "More than a gym — a community of warriors.",
+    "body": "World-class fitness infrastructure, certified trainers, 20+ programs and a fully air-conditioned environment under one roof in Baramati."
+  },
+  "programs": [
+    {
+      "icon": "🏋️",
+      "name": "Weightlifting"
+    },
+    {
+      "icon": "🚴",
+      "name": "Cardio"
+    },
+    {
+      "icon": "💃",
+      "name": "Zumba"
+    },
+    {
+      "icon": "🧘",
+      "name": "Yoga & Meditation"
+    },
+    {
+      "icon": "🤸",
+      "name": "CrossFit"
+    },
+    {
+      "icon": "♨️",
+      "name": "Steam Bath"
+    },
+    {
+      "icon": "🎬",
+      "name": "Bollywood Dance"
+    },
+    {
+      "icon": "🥊",
+      "name": "Kickboxing"
+    },
+    {
+      "icon": "🎯",
+      "name": "Personal Training"
+    },
+    {
+      "icon": "🥗",
+      "name": "Nutrition Plan"
+    },
+    {
+      "icon": "❄️",
+      "name": "Full AC Gym"
+    },
+    {
+      "icon": "🏃",
+      "name": "Functional Training"
+    }
+  ],
+  "extraFacilities": [
+    "Lift Access",
+    "Gents / Ladies Zone",
+    "Certified Trainers",
+    "Proper Guidance",
+    "Latin Workout",
+    "Diet Plans"
+  ],
+  "pricing": [
+    {
+      "name": "1 Month",
+      "price": "₹1,199",
+      "desc": "Get started, test the waters",
+      "badge": ""
+    },
+    {
+      "name": "3 Months",
+      "price": "₹2,999",
+      "desc": "Build your 90-day transformation",
+      "badge": ""
+    },
+    {
+      "name": "6 Months",
+      "price": "₹4,499",
+      "desc": "Serious commitment, serious results",
+      "badge": "BEST VALUE"
+    },
+    {
+      "name": "Yearly",
+      "price": "₹6,999",
+      "desc": "Full year · best per-month value",
+      "badge": ""
+    }
+  ],
+  "personalTraining": {
+    "price": "₹4,000/month",
+    "desc": "Certified Trainer · Custom Workout · Nutrition Coaching"
+  },
+  "trainers": [
+    {
+      "name": "Head Trainer",
+      "specialty": "Weightlifting & Nutrition"
+    },
+    {
+      "name": "Cardio & Crossfit Coach",
+      "specialty": "CrossFit & HIIT"
+    },
+    {
+      "name": "Yoga & Zumba Instructor",
+      "specialty": "Yoga, Zumba, Dance"
+    },
+    {
+      "name": "PT Specialist",
+      "specialty": "Kickboxing & Personal Training"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What are the gym timings?",
+      "a": "5:00 AM – 11:30 AM and 3:00 PM – 10:00 PM, open daily."
+    },
+    {
+      "q": "Is there a separate ladies area?",
+      "a": "Yes — dedicated separate changing and training areas for ladies."
+    },
+    {
+      "q": "What is included in membership?",
+      "a": "Full access to all facilities and classes. Personal training is an add-on at ₹4,000/month."
+    },
+    {
+      "q": "Do you provide diet / nutrition plans?",
+      "a": "Yes — personalised diet and nutrition plans by our certified trainers."
+    },
+    {
+      "q": "Are beginners welcome?",
+      "a": "100% yes. We provide full onboarding and custom starter plans."
+    },
+    {
+      "q": "Location & parking?",
+      "a": "Baramati MIDC, Sambhaji Nagar, Baramati — on-site parking with lift access."
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Rohit S.",
+      "text": "Best gym in Baramati. Trainers are supportive and equipment is top class."
+    },
+    {
+      "name": "Priya M.",
+      "text": "Ladies area is proper and clean. Zumba classes are amazing!"
+    },
+    {
+      "name": "Amol K.",
+      "text": "Lost 12 kg in 4 months with their diet plan. Highly recommended."
+    },
+    {
+      "name": "Saurabh.M",
+      "text": "Best gym youngsters"
+    }
+  ]
+}
