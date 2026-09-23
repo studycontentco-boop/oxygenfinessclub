@@ -323,6 +323,15 @@
     </div>
     <h1 class="login-title">Sign in</h1>
     <p class="login-sub">Manage the facility images, site content and contact messages.</p>
+    <div class="field" id="emailWrap" style="display:none">
+      <label for="email">Email</label>
+      <div class="pw-box">
+        <span class="lock">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+        </span>
+        <input id="email" type="email" placeholder="admin@yourclub.com" autocomplete="username"/>
+      </div>
+    </div>
     <div class="field">
       <label for="pw">Password</label>
       <div class="pw-box">
@@ -334,10 +343,6 @@
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
         </button>
       </div>
-    </div>
-    <div class="field" id="emailWrap" style="display:none">
-      <label for="email">Email</label>
-      <input id="email" type="email" placeholder="admin@yourclub.com" autocomplete="username"/>
     </div>
     <button type="submit" id="signBtn" class="btn-sign"><span id="signBtnText">UNLOCK ADMIN</span></button>
     <p id="loginError" class="login-error"></p>
