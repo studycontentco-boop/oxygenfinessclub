@@ -1,8 +1,8 @@
-﻿{
-    "private":  true,
-    "name":  "oxygen-fitness-club",
-    "version":  "1.0.0",
-    "scripts":  {
-                    "start":  "node serve.js"
-                }
+{
+    "private": true,
+    "name": "oxygen-fitness-club",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "node serve.js"
+    }
 }
