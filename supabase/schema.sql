@@ -61,6 +61,11 @@ insert into storage.buckets (id, name, public)
 values ('facility-images', 'facility-images', true)
 on conflict (id) do nothing;
 
+drop policy if exists "facility_images_select" on storage.objects;
+drop policy if exists "facility_images_insert" on storage.objects;
+drop policy if exists "facility_images_update" on storage.objects;
+drop policy if exists "facility_images_delete" on storage.objects;
+
 create policy "facility_images_select" on storage.objects
   for select using (bucket_id = 'facility-images');
 
